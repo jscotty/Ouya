@@ -28,7 +28,7 @@ public class Grid : MonoBehaviour {
 		CreateGrid ();
 	}
 
-	void CreateGrid(){
+	public void CreateGrid(){
 		for (int x = 0; x < width; x++) {
 			for (int z = 0; z < height; z++) {
 				
