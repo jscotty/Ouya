@@ -47,14 +47,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Ouya\SDK\Scripts\OuyaGameObject.cs" />
+     <Compile Include="Assets\Scripts\Reference\Names.cs" />
      <Compile Include="Assets\Scripts\Reference\Tags.cs" />
+     <Compile Include="Assets\Scripts\UI\ChooseMenu.cs" />
      <Compile Include="Assets\Scripts\UI\StartMenu.cs" />
      <Compile Include="Assets\Scripts\camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\grid\Grid.cs" />
      <Compile Include="Assets\Scripts\loading\ButtonController.cs" />
      <Compile Include="Assets\Scripts\loading\LoadingScreen.cs" />
      <Compile Include="Assets\Scripts\painting\DrawLine.cs" />
-     <Compile Include="Assets\Scripts\painting\PointCollision\ShapeCollision.cs" />
+     <Compile Include="Assets\Scripts\painting\LineCheck.cs" />
      <Compile Include="Assets\Scripts\player\PlayerGridDetection.cs" />
      <Compile Include="Assets\Scripts\player\PlayerMovement.cs" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
