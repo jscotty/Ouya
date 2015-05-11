@@ -4,9 +4,12 @@ using System.Collections;
 public class ChooseMenu : MonoBehaviour {
 
 	public void play(){
-		Application.LoadLevel (3);
+		Application.LoadLevel (4);
 	}
 	public void Back(){
-		Application.LoadLevel (1);
+		Application.LoadLevel (2);
+	}
+	public void Create(){
+
 	}
 }

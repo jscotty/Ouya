@@ -22,7 +22,7 @@ public class Grid : MonoBehaviour {
 	private GameObject obj;
 
 	private int[,] gridList = new int[,]{
-		{0,0,0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0,0,1},
 		{0,0,0,0,0,0,0,0,0,0},
 		{0,0,0,0,0,0,0,0,0,0},
 		{0,0,0,0,0,0,0,0,0,0},
@@ -57,7 +57,7 @@ public class Grid : MonoBehaviour {
 					gridV.x = x * cellWidth * -1;
 					gridV.z = z * cellHeight * -1;
 					gridPlane.transform.position = gridV;
-				} else {
+				} else if(gridList[z,x] == 1) {
 					//print ("jo");
 					GameObject gridPlane2 = (GameObject)Instantiate(planeTwo);
 					gridPlane2.transform.SetParent(obj.transform);
@@ -65,6 +65,8 @@ public class Grid : MonoBehaviour {
 					gridV2.x = x * cellWidth * -1;
 					gridV2.z = z * cellHeight * -1;
 					gridPlane2.transform.position = gridV2;
+				} else {
+
 				}
 			}
 		}
@@ -83,7 +85,6 @@ public class Grid : MonoBehaviour {
 			ReadGridFile ();
 		} else if (Input.GetKeyDown (KeyCode.Z)) {
 			CreateGrid ();
-			print("ho");
 		}
 		GridDetect ();
 	}
@@ -91,7 +92,7 @@ public class Grid : MonoBehaviour {
 	void GridDetect(){
 		//print (gridList[_playerY,_playerX]);
 		if (gridList [_playerY, _playerX] == 1) {
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 		}
 	}
 
@@ -125,13 +126,10 @@ public class Grid : MonoBehaviour {
 		string reader = File.ReadAllText(Application.persistentDataPath + "/grid.txt");
 		//print (reader);
 
-		int[,] mapArray = new int[width,height];
 		int i = 0, j = 0;
 		foreach (var row in reader.Split('\n')) {
 			foreach (var col in row.Trim().Split(',')) {
-				//mapArray[i,j] = int.Parse(col.Trim());
-				//gridList[i,j] = int.Parse(col.Trim());
-				print("i : " + i + " j: " + j + "  " + int.Parse(col.Trim()));
+				//print("i : " + i + " j: " + j + "  " + int.Parse(col.Trim()));
 				gridList[i,j] = int.Parse(col.Trim());
 				j ++;
 				if(j >= width ){

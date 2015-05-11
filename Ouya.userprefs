@@ -1,13 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\grid\Grid.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\data\PlayerData.cs">
     <Files>
+      <File FileName="Assets\Scripts\player\Detection\PlayerCollision.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\painting\DrawLine.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Reference\Tags.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\painting\LineCheck.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\painting\LineCheck.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Reference\Names.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\player\PlayerGridDetection.cs" Line="11" Column="20" />
-      <File FileName="Assets\Scripts\grid\Grid.cs" Line="72" Column="20" />
+      <File FileName="Assets\Scripts\player\PlayerGridDetection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\grid\Grid.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\camera\CameraMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\player\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\ChooseMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\player\PlayerRotating.cs" Line="1" Column="1" />
+      <File FileName="..\GamesDoneBackup\mobile\lessons\data save\Assets\SaveLoadDataSerialized.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\data\saveData\SaveLoadData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\data\PlayerData.cs" Line="7" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
