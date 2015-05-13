@@ -46,10 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BackPack.cs" />
+     <Compile Include="Assets\BackPackUI.cs" />
+     <Compile Include="Assets\BuildController.cs" />
      <Compile Include="Assets\Ouya\SDK\Scripts\OuyaGameObject.cs" />
+     <Compile Include="Assets\Scripts\DoorAnim.cs" />
+     <Compile Include="Assets\Scripts\Reference\InputButton.cs" />
+     <Compile Include="Assets\Scripts\Reference\Levels.cs" />
      <Compile Include="Assets\Scripts\Reference\Names.cs" />
      <Compile Include="Assets\Scripts\Reference\Tags.cs" />
+     <Compile Include="Assets\Scripts\UI\Buttons\Collision.cs" />
      <Compile Include="Assets\Scripts\UI\ChooseMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\CursorMovement.cs" />
      <Compile Include="Assets\Scripts\UI\StartMenu.cs" />
      <Compile Include="Assets\Scripts\camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\data\PlayerData.cs" />
@@ -60,9 +68,11 @@
      <Compile Include="Assets\Scripts\painting\DrawLine.cs" />
      <Compile Include="Assets\Scripts\painting\LineCheck.cs" />
      <Compile Include="Assets\Scripts\player\Detection\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\player\Movement.cs" />
+     <Compile Include="Assets\Scripts\player\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\player\PlayerGridDetection.cs" />
-     <Compile Include="Assets\Scripts\player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\player\PlayerRotating.cs" />
+     <Compile Include="Assets\Scripts\player\PlayerSFX.cs" />
      <None Include="Assets\Medieval_House\Info.txt" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
      <None Include="Assets\Plugins\Android\res\layout\main.xml" />

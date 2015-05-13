@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 3ef7c39265c19f749afe0960885fe9b0
+timeCreated: 1431456972
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: _NECK
+    100002: bones
+    100004: ELBOW_L
+    100006: ELBOW_R
+    100008: FEET_L
+    100010: FEET_L_Goal
+    100012: FEETR
+    100014: FEETR_Goal
+    100016: HAND_L
+    100018: HAND_L_Goal
+    100020: HAND_R
+    100022: HAND_R_Goal
+    100024: HEAD_TOP
+    100026: HEAD_TOP_Goal
+    100028: KNEE_L
+    100030: KNEE_R
+    100032: L_LEG
+    100034: NECK
+    100036: Null
+    100038: R_LEG
+    100040: SHOULDER_L
+    100042: SHOULDER_R
+    100044: Skin
+    100046: squirl
+    100048: //RootNode
+    100050: TAIL
+    100052: TAIL1
+    100054: TAIL2
+    100056: TAIL3
+    100058: TAIL3_Goal
+    100060: TORSO
+    100062: TORSO_Goal
+    100064: WAIST
+    400000: _NECK
+    400002: bones
+    400004: ELBOW_L
+    400006: ELBOW_R
+    400008: FEET_L
+    400010: FEET_L_Goal
+    400012: FEETR
+    400014: FEETR_Goal
+    400016: HAND_L
+    400018: HAND_L_Goal
+    400020: HAND_R
+    400022: HAND_R_Goal
+    400024: HEAD_TOP
+    400026: HEAD_TOP_Goal
+    400028: KNEE_L
+    400030: KNEE_R
+    400032: L_LEG
+    400034: NECK
+    400036: Null
+    400038: R_LEG
+    400040: SHOULDER_L
+    400042: SHOULDER_R
+    400044: Skin
+    400046: squirl
+    400048: //RootNode
+    400050: TAIL
+    400052: TAIL1
+    400054: TAIL2
+    400056: TAIL3
+    400058: TAIL3_Goal
+    400060: TORSO
+    400062: TORSO_Goal
+    400064: WAIST
+    4300000: squirl
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: squirl
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

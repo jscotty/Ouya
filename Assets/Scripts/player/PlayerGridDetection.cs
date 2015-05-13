@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerGridDetection : MonoBehaviour {
 
-	private PlayerMovement _playerMovement;
+	private Movement _playerMovement;
 	private float _indexX;
 	private float _indexY;
 	
@@ -11,7 +11,7 @@ public class PlayerGridDetection : MonoBehaviour {
 	private float posZ;
 
 	void Start () {
-		_playerMovement = gameObject.GetComponent<PlayerMovement> ();
+		_playerMovement = gameObject.GetComponent<Movement> ();
 	}
 
 	void Update () {

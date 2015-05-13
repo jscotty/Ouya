@@ -3,13 +3,17 @@ using System.Collections;
 
 public class ChooseMenu : MonoBehaviour {
 
-	public void play(){
-		Application.LoadLevel (4);
+
+	public void Play(){
+		LoadingScreen.isLoading = true;
+		Application.LoadLevel (Levels.DRAW);
 	}
 	public void Back(){
-		Application.LoadLevel (2);
+		LoadingScreen.isLoading = true;
+		Application.LoadLevel (Levels.GRID);
 	}
 	public void Create(){
-
+		LoadingScreen.isLoading = true;
+		Application.LoadLevel (Levels.BUILD_GRID);
 	}
 }

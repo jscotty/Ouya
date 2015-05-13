@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: c173302df9203fc46a9a83eb75395efe
+timeCreated: 1431502758
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Squirrel_Idle_0
+    21300002: Squirrel_Idle_1
+    21300004: Squirrel_Idle_2
+    21300006: Squirrel_Idle_3
+    21300008: Squirrel_Idle_4
+    21300010: Squirrel_Idle_5
+    21300012: Squirrel_Idle_6
+    21300014: Squirrel_Idle_7
+    21300016: Squirrel_Idle_8
+    21300018: Squirrel_Idle_9
+    21300020: Squirrel_Idle_10
+    21300022: Squirrel_Idle_11
+    21300024: Squirrel_Idle_12
+    21300026: Squirrel_Idle_13
+    21300028: Squirrel_Idle_14
+    21300030: Squirrel_Idle_15
+    21300032: Squirrel_Idle_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Squirrel_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2530
+        width: 446
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2530
+        width: 446
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2528
+        width: 447
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2528
+        width: 448
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1896
+        width: 446
+        height: 1258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1896
+        width: 446
+        height: 1258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 637
+        width: 446
+        height: 1886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 635
+        width: 446
+        height: 1888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1894
+        width: 447
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1266
+        width: 447
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1266
+        width: 446
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 634
+        width: 446
+        height: 1256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 635
+        width: 447
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 6
+        width: 447
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 6
+        width: 446
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 446
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Squirrel_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3
+        width: 446
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

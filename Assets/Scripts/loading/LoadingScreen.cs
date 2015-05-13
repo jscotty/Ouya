@@ -5,15 +5,16 @@ using UnityEngine.UI;
 public class LoadingScreen : MonoBehaviour {
 
 	public static bool isLoading;
+	public GameObject loadScreen;
 
 	void Start(){
 		isLoading = false;
-		gameObject.SetActive(false);
+		loadScreen.SetActive(false);
 	}
 
 	void Update(){
 		if (isLoading) {
-			gameObject.SetActive(true);
+			loadScreen.SetActive(true);
 		}
 	}
 }
